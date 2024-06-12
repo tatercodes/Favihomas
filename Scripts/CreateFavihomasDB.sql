@@ -12,10 +12,12 @@ BEGIN TRY
 		Gender VARCHAR(1) NOT NULL,
 		Street VARCHAR(100) NOT NULL,
 		HouseNumber VARCHAR(10) NOT NULL,
+		DateOfResidency DATETIME NULL,
+		HouseHoldCount INT NOT NULL DEFAULT 0,		
 		PhoneNumber VARCHAR(20) NULL,
 		TelephoneNumber VARCHAR(20) NULL,
 		EmailAddress VARCHAR(100) NULL,
-		HouseMembersCount INT NOT NULL DEFAULT 0
+		Status BOOL NOT NULL
 	);
 
 	CREATE TABLE Favihomas.dbo.DueReceipts (
