@@ -1,0 +1,42 @@
+CREATE DATABASE Favihomas;
+GO
+
+BEGIN TRY
+	BEGIN TRAN
+
+	CREATE TABLE Favihomas.dbo.HomeOwners (
+		HomeOwnerID INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
+		FirstName VARCHAR(100) NOT NULL,
+		MiddleName VARCHAR(100) NOT NULL,
+		LastName VARCHAR(100) NOT NULL,
+		Gender VARCHAR(1) NOT NULL,
+		Street VARCHAR(100) NOT NULL,
+		HouseNumber VARCHAR(10) NOT NULL,
+		PhoneNumber VARCHAR(20) NULL,
+		TelephoneNumber VARCHAR(20) NULL,
+		EmailAddress VARCHAR(100) NULL,
+		HouseMembersCount INT NOT NULL DEFAULT 0
+	);
+
+	CREATE TABLE Favihomas.dbo.DueReceipts (
+		DueReceiptID INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
+		HomeOwnerID INT NOT NULL FOREIGN KEY REFERENCES HomeOwners(HomeOwnerID),
+		InvoiceNumber VARCHAR(100) NOT NULL,
+		DateIssued DATETIME NOT NULL,
+		Amount DECIMAL NOT NULL,
+		Remarks TEXT NULL,
+		ReceiptImage BINARY NULL
+	);
+
+	CREATE TABLE Favihomas.dbo.DueReceiptDetails (
+		DueReceipDetailtID INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
+		DueReceiptID INT NOT NULL FOREIGN KEY REFERENCES DueReceipts(DueReceiptID),
+		DateCovered DATETIME NOT NULL,
+		Remarks TEXT NULL
+	);
+	COMMIT TRAN
+END TRY
+BEGIN CATCH
+	ROLLBACK TRANSACTION
+	SELECT ERROR_MESSAGE() AS ErrorMessage;
+END CATCH
