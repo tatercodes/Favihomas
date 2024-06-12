@@ -4,6 +4,17 @@ GO
 BEGIN TRY
 	BEGIN TRAN
 
+	CREATE TABLE Favihomas.dbo.Users (
+		UserID INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
+		Username VARCHAR(100) NOT NULL,
+		Password VARCHAR(100) NOT NULL,
+		Status BIT NOT NULL,
+		DateCreated DATETIME NOT NULL,
+		CreatedBy INT NOT NULL FOREIGN KEY REFERENCES Users(UserID),
+		DateUpdated DATETIME NOT NULL,
+		UpdatedBy INT NOT NULL FOREIGN KEY REFERENCES Users(UserID),
+	);
+
 	CREATE TABLE Favihomas.dbo.HomeOwners (
 		HomeOwnerID INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
 		FirstName VARCHAR(100) NOT NULL,
@@ -17,7 +28,11 @@ BEGIN TRY
 		PhoneNumber VARCHAR(20) NULL,
 		TelephoneNumber VARCHAR(20) NULL,
 		EmailAddress VARCHAR(100) NULL,
-		Status BOOL NOT NULL
+		Status BIT NOT NULL,
+		DateCreated DATETIME NOT NULL,
+		CreatedBy INT NOT NULL FOREIGN KEY REFERENCES Users(UserID),
+		DateUpdated DATETIME NOT NULL,
+		UpdatedBy INT NOT NULL FOREIGN KEY REFERENCES Users(UserID),
 	);
 
 	CREATE TABLE Favihomas.dbo.DueReceipts (
@@ -27,14 +42,22 @@ BEGIN TRY
 		DateIssued DATETIME NOT NULL,
 		Amount DECIMAL NOT NULL,
 		Remarks TEXT NULL,
-		ReceiptImage BINARY NULL
+		ReceiptImage BINARY NULL,
+		DateCreated DATETIME NOT NULL,
+		CreatedBy INT NOT NULL FOREIGN KEY REFERENCES Users(UserID),
+		DateUpdated DATETIME NOT NULL,
+		UpdatedBy INT NOT NULL FOREIGN KEY REFERENCES Users(UserID),
 	);
 
 	CREATE TABLE Favihomas.dbo.DueReceiptDetails (
 		DueReceipDetailtID INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
 		DueReceiptID INT NOT NULL FOREIGN KEY REFERENCES DueReceipts(DueReceiptID),
 		DateCovered DATETIME NOT NULL,
-		Remarks TEXT NULL
+		Remarks TEXT NULL,
+		DateCreated DATETIME NOT NULL,
+		CreatedBy INT NOT NULL FOREIGN KEY REFERENCES Users(UserID),
+		DateUpdated DATETIME NOT NULL,
+		UpdatedBy INT NOT NULL FOREIGN KEY REFERENCES Users(UserID),
 	);
 	COMMIT TRAN
 END TRY
