@@ -1,0 +1,16 @@
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Service\bin\Release\net8.0\Favihomas.Service.deps.json
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Service\bin\Release\net8.0\Favihomas.Service.dll
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Service\bin\Release\net8.0\Favihomas.Service.pdb
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Service\bin\Release\net8.0\Favihomas.Core.dll
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Service\bin\Release\net8.0\Favihomas.Core.pdb
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Service\obj\Release\net8.0\Favihomas.Service.csproj.AssemblyReference.cache
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Service\obj\Release\net8.0\Favihomas.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Service\obj\Release\net8.0\Favihomas.Service.AssemblyInfoInputs.cache
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Service\obj\Release\net8.0\Favihomas.Service.AssemblyInfo.cs
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Service\obj\Release\net8.0\Favihomas.Service.csproj.CoreCompileInputs.cache
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Service\obj\Release\net8.0\Favihomas.Service.sourcelink.json
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Service\obj\Release\net8.0\Favihoma.266F2E33.Up2Date
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Service\obj\Release\net8.0\Favihomas.Service.dll
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Service\obj\Release\net8.0\refint\Favihomas.Service.dll
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Service\obj\Release\net8.0\Favihomas.Service.pdb
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Service\obj\Release\net8.0\ref\Favihomas.Service.dll

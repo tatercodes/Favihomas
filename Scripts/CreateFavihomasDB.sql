@@ -6,7 +6,7 @@ BEGIN TRY
 
 	CREATE TABLE Favihomas.dbo.AuditActions (
 		AuditActionID INT IDENTITY(1, 1) NOT NULL PRIMARY KEY,
-		AuditAction VARCHAR(100) NOT NULL		
+		AuditActionName VARCHAR(100) NOT NULL		
 	);
 
 	CREATE TABLE Favihomas.dbo.Users (

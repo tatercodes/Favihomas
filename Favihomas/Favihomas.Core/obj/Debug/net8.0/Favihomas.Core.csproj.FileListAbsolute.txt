@@ -1,0 +1,13 @@
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Core\bin\Debug\net8.0\Favihomas.Core.deps.json
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Core\bin\Debug\net8.0\Favihomas.Core.dll
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Core\bin\Debug\net8.0\Favihomas.Core.pdb
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Core\obj\Debug\net8.0\Favihomas.Core.csproj.AssemblyReference.cache
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Core\obj\Debug\net8.0\Favihomas.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Core\obj\Debug\net8.0\Favihomas.Core.AssemblyInfoInputs.cache
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Core\obj\Debug\net8.0\Favihomas.Core.AssemblyInfo.cs
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Core\obj\Debug\net8.0\Favihomas.Core.csproj.CoreCompileInputs.cache
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Core\obj\Debug\net8.0\Favihomas.Core.sourcelink.json
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Core\obj\Debug\net8.0\Favihomas.Core.dll
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Core\obj\Debug\net8.0\refint\Favihomas.Core.dll
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Core\obj\Debug\net8.0\Favihomas.Core.pdb
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.Core\obj\Debug\net8.0\ref\Favihomas.Core.dll
