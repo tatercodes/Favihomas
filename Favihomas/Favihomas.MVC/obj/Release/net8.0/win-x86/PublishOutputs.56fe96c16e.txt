@@ -1,0 +1,7 @@
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.MVC\obj\Release\net8.0\win-x86\PubTmp\Out\appsettings.Development.json
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.MVC\obj\Release\net8.0\win-x86\PubTmp\Out\appsettings.json
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.MVC\obj\Release\net8.0\win-x86\PubTmp\Out\Favihomas.MVC.pdb
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.MVC\obj\Release\net8.0\win-x86\PubTmp\Out\Microsoft.Data.SqlClient.SNI.dll
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.MVC\obj\Release\net8.0\win-x86\PubTmp\Out\Favihomas.Core.pdb
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.MVC\obj\Release\net8.0\win-x86\PubTmp\Out\Favihomas.Service.pdb
+E:\Court\Programming\Git Projects\Favihomas\Favihomas\Favihomas.MVC\obj\Release\net8.0\win-x86\PubTmp\Out\Favihomas.MVC.exe
